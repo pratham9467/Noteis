@@ -42,12 +42,15 @@ button {
   outline: none;
   box-shadow: 2px 2px 4px rgb(138, 78, 164);
   margin: 20px 0 0 30px;
-  background-color: ivory;
+  background-color: rgb(247, 194, 36);
 }
 
 button:hover {
   background-color: lemonchiffon;
   cursor: pointer;
+  transition: 0.3s;
+  height: 29px;
+  width: 119px;
 }
 
 .userNotes {
@@ -76,4 +79,14 @@ button:hover {
   left: 25vw;
   font-size: 20px;
   cursor: pointer;
+}
+
+#copyright{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: darkmagenta;
+  font-size: 12px;
+  padding: 10px 0;
 }
