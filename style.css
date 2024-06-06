@@ -36,12 +36,13 @@ body {
 }
 button {
   height: 30px;
-  width: 100px;
-  border-radius: 5px;
+  width: 120px;
+  border-radius: 50px;
   border: none;
   outline: none;
-  box-shadow: 2px 2px 4px darkviolet;
+  box-shadow: 2px 2px 4px rgb(138, 78, 164);
   margin: 20px 0 0 30px;
+  background-color: ivory;
 }
 
 button:hover {
@@ -64,6 +65,7 @@ button:hover {
   border-radius: 5px;
   padding: 10px 30px 10px 0;
   margin: 10px 0;
+  
 }
 
 .img {
